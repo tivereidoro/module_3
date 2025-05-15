@@ -1,12 +1,13 @@
-# Node.js Mini Project Assessment
+# Mini Project Assessment - Create a simple REST API with Express.js
 
 ## Objective:
 
-The goal of this project is to create a detailed analysis report that explores Node.js's capabilities in building scalable web applications and evaluate it's advantages and disadvantages.
+The goal of this assessment is to create a simple REST API using Express.js, demonstrating my understanding of Node.js, Express.js, and RESTful API principles.
 
 ## Tasks:
 
-- Research Node.js architecture and aspects
-- Compare Node.js with traditiona server-side technologies
-- Outline the pros and cons
-- Create a simple web application to demonstrate Node.js capabilities
+- Set up the API with Express.js.
+- Create routes to implement CRUD operations including; GET, POST, PUT, DELETE items by ID.
+- Data management: in-memory data store and proper validation for incoming data.
+- Handle appropriate error responses and validate request params and body data.
+- Test API endpoints with Postman.
