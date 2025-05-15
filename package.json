@@ -1,20 +1,21 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "author": "Tivere IDORO",
-  "license": "ISC",
-  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "node load-test.js"
   },
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^5.1.0",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "author": "Tivere IDORO"
 }
