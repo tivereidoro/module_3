@@ -210,6 +210,10 @@ Request URL:
 
 Open Postman, select the required request method (GET/POST/PUT/DELETE) and input a json data into the body section where necessary, then click send to get the response.
 
+[!GET Postman test](./snapshots/get.png)
+
+[!PUT test](./snapshots/put.png)
+
 **OR**
 
 Use cURL on the CLI to test send request to the endpoint. Here is an example;
@@ -223,14 +227,11 @@ curl -X POST http://localhost:5000/api/users \
 ## 📂 Project Structure
 
 ```
-user-management-api/
+module_3/
 |
-├── routes/
-|   └── users.js    # Contains API routes for /api/users endpoint
-├── controllers/
-|   └── users.js    # Contains functions that execute the API logic
-|
-├── index.js        # Main application file
+├── index.js               # Main application file
+├── usersControllers.js    # Contains functions that execute the API logic
+├── usersRoutes.js         # Contains API routes for /api/users endpoint
 ├── LICENSE
 ├── package.json
 ├── .gitignore

@@ -1,24 +1,7 @@
 import { nanoid } from "nanoid";
 
 // In-memory database;
-let users = [
-  {
-    id: "1",
-    firstname: "John",
-    lastname: "Doe",
-    email: "demo@email.com",
-    age: 24,
-    description: "Data Analyst",
-  },
-  {
-    id: "1",
-    firstname: "Jke",
-    lastname: "Gaye",
-    email: "gaye@email.com",
-    age: 14,
-    description: "Young Developer",
-  },
-];
+let users = [];
 
 /**
  * Fetch all users

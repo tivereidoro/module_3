@@ -5,8 +5,8 @@ import {
   getUserById,
   getUsers,
   updateUserById,
-} from "../controllers/users.js";
-import { usersAPI_URL } from "../index.js";
+} from "./usersControllers.js";
+import { usersAPI_URL } from "./index.js";
 
 // Get router object from express
 const router = express.Router();
