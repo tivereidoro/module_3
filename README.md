@@ -230,6 +230,8 @@ curl -X POST http://localhost:5000/api/users \
 -d '{"firstname":"Jane","lastname":"Smith","email":"jane@email.com", "age":"24", "description":"Graphic Designer"}'
 ```
 
+![cURL test](./snapshots/curl.png)
+
 ## 📂 Project Structure
 
 ```
