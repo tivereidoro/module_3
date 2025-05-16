@@ -225,15 +225,17 @@ curl -X POST http://localhost:5000/api/users \
 ```
 user-management-api/
 |
-├── index.js        # Main application file
-├── LICENSE
-├── package.json
-├── README.md
-|
 ├── routes/
 |   └── users.js    # Contains API routes for /api/users endpoint
 ├── controllers/
-    └── users.js    # Contains functions that execute the API logic
+|   └── users.js    # Contains functions that execute the API logic
+|
+├── index.js        # Main application file
+├── LICENSE
+├── package.json
+├── .gitignore
+└── README.md
+
 
 ```
 
