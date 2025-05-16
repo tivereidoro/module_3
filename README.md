@@ -210,9 +210,9 @@ Request URL:
 
 Open Postman, select the required request method (GET/POST/PUT/DELETE) and input a json data into the body section where necessary, then click send to get the response.
 
-[!GET Postman test](./snapshots/get.png)
+![GET Postman test](./snapshots/get.png)
 
-[!PUT test](./snapshots/put.png)
+![PUT test](./snapshots/put.png)
 
 **OR**
 
