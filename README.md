@@ -113,6 +113,8 @@ Request body:
 
 An ID will be automatically generated for each user on the server.
 
+![POST Postman test](./snapshots/post.png)
+
 **Expected response: (200 OK):**
 
 `Success! User 'Jane' added!`
@@ -126,6 +128,8 @@ Request URL:
 ```
    http://localhost:5000/api/users
 ```
+
+![GET Postman test](./snapshots/get.png)
 
 **Expected response: (200 OK)**
 
@@ -184,6 +188,8 @@ Request body:
    }
 ```
 
+![PUT Postman test](./snapshots/put.png)
+
 **Expected response: (201 OK)**
 
 `Updated user with ID: 'scx54-e348'`
@@ -198,6 +204,8 @@ Request URL:
    http://localhost:5000/api/users/scx54-e348
 ```
 
+![DELETE Postman test](./snapshots/delete.png)
+
 **Expected response: (201 OK)**
 
 `User with ID: 'scx54-e348' has been deleted!!`
@@ -210,9 +218,7 @@ Request URL:
 
 Open Postman, select the required request method (GET/POST/PUT/DELETE) and input a json data into the body section where necessary, then click send to get the response.
 
-![GET Postman test](./snapshots/get.png)
-
-![PUT test](./snapshots/put.png)
+![POST Postman test](./snapshots/post.png)
 
 **OR**
 
